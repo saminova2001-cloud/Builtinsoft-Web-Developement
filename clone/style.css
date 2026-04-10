@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.logo{
+    color:#58cc02;
+}
+
+
+.hero{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.hero h1{
+    font-size: 48px;
+}
+
+button{
+    background: #58cc02;
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.feature{
+    width: 30%;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.container{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+}
+/* universasl selctor */
+
+/* *{
+background-color: yellow;
+} */
+
+/* id selector */
+#title{
+
+    /* property: value */
+    background-color: blue;
+}
+
+/* Element Selector */
+/* class sector */
+.para{
+background-color: blue;
+}
+
+/* element selector */
+h2{
+    color:blue
+}

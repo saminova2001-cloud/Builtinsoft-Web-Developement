@@ -1,0 +1,53 @@
+.parent{
+    padding-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: yellowgreen;
+    /* overflow; */
+    display: flex;
+
+
+}
+.child-1,  .child-2, .child-3{
+    width: 200px;
+    height: 200px;
+}
+
+.child-1{
+    background-color: red;
+}
+
+.child-2{
+    background-color: white;
+}
+
+.child-3{
+    background-color: blue;
+}
+
+.bigboss{
+    width: 100%;
+    height: 400px;
+    /* background-color */
+    margin-top: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,red,#999,blue );
+}
+
+
+.p.fix{
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+    position: fixed;
+
+}
+
+.grid{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    background-color: lightgray;
+    column-gap: 300px;
+    row-gap: 50px;
+}

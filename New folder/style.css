@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to right, red, green, yellow);
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px 15px;
+    height: 300px;
+    width: 100%;
+    border: 2px;
+    gap: 10px;
+    
+}
+.card{
+    background-color: black;
+    color: white;
+}
+
+.card1{
+    background-color: yellowgreen;
+    background-color: wheat;
+}
+
+.card2{
+    background-color: blue;
+}
+
+.card3{
+    background-color: chartreuse;
+}
+
+
+
+
+
+.name-title{
+    color: white;
+    font-size: 46px;
+    animation-name: colorchanger;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
+
+/* Animations */
+
+
