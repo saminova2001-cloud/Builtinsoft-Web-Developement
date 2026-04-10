@@ -34,4 +34,10 @@ while (b <= 5);
 // Q4
 // ANS
     
-     for(let c; c)
+     for (let i = 1; i <= 5; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+        row += "* ";
+    }
+    console.log(row);
+}
