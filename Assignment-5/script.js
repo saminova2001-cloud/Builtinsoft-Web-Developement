@@ -72,7 +72,7 @@ function add(a,b)
     // Q7
     // ANS:
 
-    function isEven(num){
+    function isEven(num){ 
     if(num % 2 === 0){
         return true;
     }
@@ -117,4 +117,13 @@ console.log(multiply(6, 3));
 
 for (let i = 1; i <= 5; i++) {
     sayHello();
+}
+
+// Q11
+// ANS
+
+function iseven(num){
+    if (num % 2 == 0){
+        
+    }
 }
