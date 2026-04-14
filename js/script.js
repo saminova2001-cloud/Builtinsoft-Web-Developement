@@ -315,4 +315,35 @@ function add(a,b){
 }
  console.log(add(2,77))
 
- 
+
+
+ const add1 = (a,b) => a+b;
+
+//  callbacks
+
+function first(xyz){
+    xyz()
+    console.log("first called")
+}
+
+function second(){
+    console.log("second called")
+}
+
+first(second)
+
+// promises
+
+const myPromise = new Promise((resolve, reject) => {
+    const success = true;
+    if(success){
+        resolve("operation succesfull")
+    } else {
+        reject(new Error("something went wrong"))
+    }
+}
+
+
+
+// myPromise.then(output => { console.log(err, 'here is  error')}
+// tomorrow asunc await, promises
