@@ -143,6 +143,6 @@ for ( let u in studient){
 
 let arr = [1,2,3,4,5]
 
-for( let vie of arr){
-    console.log(vie)
+for( let v of arr){
+    console.log(v)
 }
