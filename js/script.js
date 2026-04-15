@@ -347,3 +347,14 @@ const myPromise = new Promise((resolve, reject) => {
 
 // myPromise.then(output => { console.log(err, 'here is  error')}
 // tomorrow asunc await, promises
+ 
+
+const arr1 = [1,2,3,4,5]
+
+const arr2 =[4,5,6,7,8]
+
+const combinedArray = [...arr1, ...arr2]
+
+console.log(combinedArray)
+
+// js outlins : all topics, project (html , css)

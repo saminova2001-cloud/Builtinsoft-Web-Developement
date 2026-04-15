@@ -130,3 +130,19 @@ function iseven(num){
        console.log("odd") 
     }
 }
+
+studient={
+    name: "err",
+    class: "studienkolleg",
+    nombor: "drei, vei,funnf"
+}
+
+for ( let u in studient){
+    console.log("u:" + studient[u])
+}
+
+let arr = [1,2,3,4,5]
+
+for( let vie of arr){
+    console.log(vie)
+}
