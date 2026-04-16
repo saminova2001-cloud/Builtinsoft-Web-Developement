@@ -15,6 +15,7 @@ body {
     height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
+    font-style: opacity;
 
 }
 
@@ -45,17 +46,17 @@ nav {
 
 nav img {
     color: rgb(229, 9, 20);
-    width: 148px;
+    width: 190px;
     display: block;
-    padding-top: 25px;
-    padding-left: 11px;
+    padding-top: 50px;
+    padding-left: 15px;
     position: relative;
     overflow-clip-margin: content-box;
 }
 
 .sign-in {
-    padding-right: 106px;
-    padding-top: 0px;
+    padding-right: 124px;
+    padding-top: 15px;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 6px;
@@ -67,9 +68,9 @@ nav button {
     z-index: 10;
     color: white;
     background-color: rgb(229, 9, 20);
-    padding: 6px 10px 6px 13px;
+    padding: 12px 20px 12px 26px;
     border-color: rgba(0, 0, 0, 0);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
 
@@ -83,7 +84,7 @@ nav button {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    padding: 145px;
+    padding: 170px;
     text-align: center;
     display: flex;
     box-sizing: border-box;
@@ -92,14 +93,14 @@ nav button {
 
 .hero> :first-child {
     font-weight: 800;
-    font-size: 56px;
+    font-size: 70px;
     margin: 0px 0px 10px;
     text-align: center;
 }
 
 .hero> :nth-child(2) {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0px 0px 32px;
     text-align: center;
     display: flex;
@@ -107,14 +108,14 @@ nav button {
 
 .hero> :nth-child(3) {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     margin:0px 0px 10px;
     text-align: center;
 }
 
 .main input {
-    padding: 18px 136px 15px 12px;
+    padding: 20px 148px 17px 100px;
     font-size: 18px;
     font-weight: 700;
     background-color: rgba(23, 23, 23, 0.7);
@@ -139,9 +140,8 @@ nav button {
 .container{
     
     height: 500px;
-    max-width: 1000px;
-    width: 100%;
-    margin-top: 100px;
+    width: 75vw;
+    margin-top: 120px;
     margin-left: 10.5vw;
     margin-right: 12vw;
     padding-bottom: 0px;
@@ -149,8 +149,8 @@ nav button {
 }
 
 .section-title{
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 25px;
@@ -160,7 +160,7 @@ nav button {
 
 .slider{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scrollbar-width: none; 
@@ -175,8 +175,8 @@ nav button {
 .card{
     position: relative;
     flex: 0 0 auto;
-    width: 190px;
-    height: 220;
+    width: 230px;
+    height: 320px;
     scroll-snap-align: start;
     border-radius: 8px;
     overflow: visible;
@@ -209,17 +209,17 @@ nav button {
 }
 
 .container2{
-    margin-top: -90px;
+    margin-top: 0px;
     margin-left: 10.5vw;
     margin-right: 12vw;
-    height: 350px;
+    height: 400px;
     width: 80vw;
 }
 
 .section{
     display: flex;
     gap: 10px;
-    height: 350px;
+    height: 390px;
     width: 75vw;
     color: rgba(255,255,255,0.7);
     font-size: 1rem;
@@ -228,8 +228,9 @@ nav button {
 }
 
 .card2{
-    height: 290px;
-    width: 40vw;
+    font-size: 20px;
+    height: 360px;
+    width: 35vw;
     flex: 10px 10px 10px 10px;
     background: linear-gradient(159deg,#192247 0%,#210e17 96.86%);
     border-radius: 15px;
@@ -241,7 +242,7 @@ nav button {
 
 .card2 h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     color: #ffffff;
 }
 
