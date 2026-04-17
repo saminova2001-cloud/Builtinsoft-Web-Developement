@@ -138,17 +138,17 @@ nav button {
 }
 
 .curve-section{
-    margin-top: -90px;
+    margin-top: -73px;
     position: relative;
-    height: 50px;
-    background: radial-gradient(ellipse at top, #0a0f2c 0%, #000 70%);
+    height: 80px;
+    background: radial-gradient(ellipse at top, #141e47 0%, #000 70%);
     overflow: hidden;
 }
 
 .curve-section::before{
     position: absolute;
     background: radial-gradient(ellipse at top,rgba(255, 0, 76, 1)0%, rgba(255, 0, 76, 0.8)40%, rgba(255, 0, 76, 0.1)100%);
-    height: 5px;
+    height: 6px;
     content: "";
     top: 0px;
     left: 0;
@@ -213,7 +213,6 @@ nav button {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
     border-radius: 8px;
 }
 
@@ -232,7 +231,7 @@ nav button {
     margin-left: 10.5vw;
     margin-right: 12vw;
     height: 400px;
-    width: 80vw;
+    width: 100px;
 }
 
 .section{
@@ -308,6 +307,8 @@ nav button {
 }
 
 .content2{
+    flex-wrap: wrap;
+    overflow: hidden;
     height: 200px;
     width: 75vw;
     margin-top: 740px;
@@ -412,4 +413,27 @@ footer{
 
 .last-line a{
     color: #398ecd; 
+}
+
+@media screen and (max-width: 480px) {
+body{
+    height: fit-content;
+}
+
+    .main{
+    flex-wrap: wrap;
+    background-size: cover;
+  }
+  .main.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px  0px ;    
+  }
+  .section.card2{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+  }
 }
