@@ -48,7 +48,7 @@ nav img {
     color: rgb(229, 9, 20);
     width: 152px;
     display: block;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 15px;
     position: relative;
     overflow-clip-margin: content-box;
@@ -56,7 +56,7 @@ nav img {
 
 .sign-in {
     padding-right: 124px;
-    padding-top: 15px;
+    padding-top: 8px;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 6px;
@@ -68,7 +68,7 @@ nav button {
     z-index: 10;
     color: white;
     background-color: rgb(229, 9, 20);
-    padding: 12px 20px 12px 26px;
+    padding: 8px 12px 8px 15px;
     border-color: rgba(0, 0, 0, 0);
     font-size: 16px;
     font-weight: 700;
@@ -93,29 +93,29 @@ nav button {
 
 .hero> :first-child {
     font-weight: 800;
-    font-size: 70px;
+    font-size: 50px;
     margin: 0px 0px 10px;
     text-align: center;
 }
 
 .hero> :nth-child(2) {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0px 0px 32px;
     text-align: center;
     display: flex;
 }
 
 .hero> :nth-child(3) {
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin:0px 0px 10px;
     text-align: center;
 }
 
 .main input {
-    padding: 20px 148px 17px 100px;
+    padding: 18px 148px 15px 98px;
     font-size: 18px;
     font-weight: 700;
     background-color: rgba(23, 23, 23, 0.7);
@@ -137,10 +137,29 @@ nav button {
     margin-left: 12px;
 }
 
+.curve-section{
+    margin-top: -90px;
+    position: relative;
+    height: 50px;
+    background: radial-gradient(ellipse at top, #0a0f2c 0%, #000 70%);
+    overflow: hidden;
+}
+
+.curve-section::before{
+    position: absolute;
+    background: radial-gradient(ellipse at top,rgba(255, 0, 76, 1)0%, rgba(255, 0, 76, 0.8)40%, rgba(255, 0, 76, 0.1)100%);
+    height: 5px;
+    content: "";
+    top: 0px;
+    left: 0;
+    right: 0;
+    border-radius: 50% 50% 0 0 /  100% 100%  0 0;
+}
+
 .container{ 
     height: 500px;
     width: 75vw;
-    padding-top: 0px;
+    margin-top: 0px;
     margin-left: 10.5vw;
     margin-right: 12vw;
     padding-bottom: 0px;
