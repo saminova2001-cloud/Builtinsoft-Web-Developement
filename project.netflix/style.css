@@ -850,12 +850,13 @@ footer {
   }
 
     .main {
-        background-size: cover;
         height: auto;
-        width: 500px;
+        width: 597px;
     }
 
-
+    .main{
+        background-size: cover;
+    }
 
     nav {
         height: auto;
@@ -886,7 +887,7 @@ footer {
     margin-top: -73px;
     position: relative;
     height: 80px;
-    width: 500px;
+    width: 597px;
     background: radial-gradient(ellipse at top, #141e47 0%, #000 70%);
     overflow: hidden;
     }
