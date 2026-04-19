@@ -230,14 +230,14 @@ else{
 }
 
 // switch statement
-
+day =  'friday'
 switch (day)
 {
-    case "monday":
+    case 'monday':
        console.log("it's start of week")
        break;
-    case "friday":
-       console.log("mid of week")
+    case 'friday':
+       console.log("mmmmid of week")
        break;
     default:
         console.log("it;s weekend")
@@ -288,8 +288,10 @@ do{
 // for out
 
 
-// functions Functions in JavaScript are reusable blocks of code designed to perform
-//  specific tasks. They allow you to organize, reuse, and modularize code. It can take inputs, perform actions, and return outputs.
+// Functions: functions in JavaScript are reusable blocks of code 
+// designed to performspecific tasks. They allow you to organize,
+//  reuse, and modularize code. It can take inputs, perform actions,
+//  and return outputs.
 
 // function xyz ("parameters"){
     // return
@@ -334,14 +336,14 @@ first(second)
 
 // promises
 
-const myPromise = new Promise((resolve, reject) => {
-    const success = true;
-    if(success){
-        resolve("operation succesfull")
-    } else {
-        reject(new Error("something went wrong"))
-    }
-}
+// const myPromise = new Promise((resolve, reject) => {
+//     const success = true;
+//     if(success){
+//         resolve("operation succesfull")
+//     } else {
+//         reject(new Error("something went wrong"))
+//     }
+// }
 
 
 
@@ -349,7 +351,7 @@ const myPromise = new Promise((resolve, reject) => {
 // tomorrow asunc await, promises
  
 
-const arr1 = [1,2,3,4,5]
+const arr1 =[1,2,3,4,5]
 
 const arr2 =[4,5,6,7,8]
 
@@ -358,3 +360,9 @@ const combinedArray = [...arr1, ...arr2]
 console.log(combinedArray)
 
 // js outlins : all topics, project (html , css)
+
+
+
+// practice
+
+
