@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css'
 function Navbar() {
     return (
         <div>
@@ -12,8 +11,7 @@ function Navbar() {
                         <a href="">GIFTING</a>
                     </div>
                     <div class="pre-navbar-2">
-                        <P>Last Order Dates for Pre-Eid Delivery: International & Nationwide 15 Mar | Karachi 17 Mar
-                        </P>
+                        <p>Last Order Dates for Pre-Eid Delivery: International & Nationwide 15 Mar | Karachi 17 Mar</p>
                     </div>
                     <div class="pre-navbar-3">
                         <a href="">WELCOME TO J.</a>
