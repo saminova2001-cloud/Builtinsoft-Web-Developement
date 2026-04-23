@@ -1,9 +1,9 @@
-<>
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-  <div className="main">
+import React from "react";
+import "./Netflix.css";
+function ProjectNetflix(){
+  return;
+    <>
+<div className="main">
     <nav>
       <img src="Assets/images/logo.svg" alt="" />
       <div className="sign-in">
@@ -24,14 +24,13 @@
         </p>
         <div>
           <input type="text" placeholder="Email address" />
-          <button className="btn">Get Started &gt;</button>
+          <button className="btn">Get Started</button>
         </div>
       </div>
     </div>
   </div>
-  {/* ellipse gradient */}
   <div className="curve-section"></div>
-  {/* Trending Section */}
+  
   <div className="container">
     <div className="section-title">Trending Now</div>
     <div className="slider">
@@ -125,13 +124,7 @@
           Send kids on adventures with their favorite characters in a space made
           just for them — free with your membership.
         </p>
-        <img
-          className="smallimg"
-          src=".//Assets/images/small4.png"
-          alt="small4"
-          height="75px"
-          width="75px"
-        />
+        <img className="smallimg" src=".//Assets/images/small4.png" alt="small4" style={{ height: "75px", width: "75px" }} />
       </div>
     </div>
     <br />
@@ -215,7 +208,7 @@
     </p>
     <div className="search">
       <input type="text" placeholder="Email address" />
-      <button className="btn">Get Started &gt;</button>
+      <button className="btn">Get Started ;</button>
     </div>
   </div>
   <footer>
@@ -269,4 +262,5 @@
     <br />
   </a>
 </>
+}
 export default ProjectNetflix;
