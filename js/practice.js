@@ -155,3 +155,9 @@ let count = (str) => {
         console.log(count)
     }
 }
+
+let class={
+    name:awais,
+    age:20,
+    grade: ,
+}
