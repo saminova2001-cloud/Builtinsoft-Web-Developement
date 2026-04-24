@@ -1,8 +1,8 @@
 import React from "react";
+import "./Navbar.css";
 function Navbar() {
     return (
         <div>
-
             <div class="pre-nav">
                 <div class="pre-navbar-1 a">
                     <div pre-nav>

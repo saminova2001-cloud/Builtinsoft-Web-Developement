@@ -1,11 +1,13 @@
 import './App.css'
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
+import ProjectNetflix from './ProjectNetflix';
 
 function App() {
   return(
     <div>
-      <h1>helloi</h1>
-      <Navbar/>
+      {/* <Navbar/> */}
+      <h1>Helloooooooo</h1>
+      {/* <ProjectNetflix/> */}
     </div>
   );
 }
