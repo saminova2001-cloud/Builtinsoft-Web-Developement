@@ -6,8 +6,8 @@ function App() {
   return(
     <div>
       {/* <Navbar/> */}
-      <h1>Helloooooooo</h1>
-      {/* <ProjectNetflix/> */}
+      {/* <h1>Helloooooooo</h1> */}
+      <ProjectNetflix/>
     </div>
   );
 }

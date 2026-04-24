@@ -1,11 +1,11 @@
 import React from "react";
 import "./Netflix.css";
 function ProjectNetflix() {
-  return;
-  <>
-    {/* <div className="main">
+  return (
+    <>
+      <div className="main">
       <nav>
-        <img src="public/images/logo.svg" alt="" />
+        <img src="/images/logo.svg" alt="" />
         <div className="sign-in">
           <button>Sign In</button>
         </div>
@@ -28,57 +28,57 @@ function ProjectNetflix() {
           </div>
         </div>
       </div>
-    </div> */}
-    {/* <div className="curve-section">
+    </div>
+    <div className="curve-section">
       
-    </div> */}
+    </div>
 
-    {/* <div className="container">
+    <div className="container">
       <div className="section-title">Trending Now</div>
       <div className="slider">
         <div className="card">
-          <img src="public/images/1.webp" alt="image 1" />
+          <img src="/images/1.webp" alt="image 1" />
           <div className="number">1</div>
         </div>
         <div className="card">
-          <img src="public/images/2.webp" alt="image 2" />
+          <img src="/images/2.webp" alt="image 2" />
           <div className="number">2</div>
         </div>
         <div className="card">
-          <img src="public/images/3.webp" alt="image 3" />
+          <img src="/images/3.webp" alt="image 3" />
           <div className="number">3</div>
         </div>
         <div className="card">
-          <img src="public/images/4.webp" alt="image 4" />
+          <img src="/images/4.webp" alt="image 4" />
           <div className="number">4</div>
         </div>
         <div className="card">
-          <img src="public/images/5.webp" alt="image 5" />
+          <img src="/images/5.webp" alt="image 5" />
           <div className="number">5</div>
         </div>
         <div className="card">
-          <img src="public/images/6.webp" alt="image 6" />
+          <img src="/images/6.webp" alt="image 6" />
           <div className="number">6</div>
         </div>
         <div className="card">
-          <img src="public/images/7.webp" alt="image 7" />
+          <img src="/images/7.webp" alt="image 7" />
           <div className="number">7</div>
         </div>
         <div className="card">
-          <img src="public/images/8.webp" alt="image 8" />
+          <img src="/images/8.webp" alt="image 8" />
           <div className="number">8</div>
         </div>
         <div className="card">
-          <img src="public/images/9.webp" alt="image 9" />
+          <img src="/images/9.webp" alt="image 9" />
           <div className="number">9</div>
         </div>
         <div className="card">
-          <img src="public/images/10.webp" alt="image 10" />
+          <img src="/images/10.webp" alt="image 10" />
           <div className="number">10</div>
         </div>
       </div>
-    </div> */}
-    {/* <div className="container2">
+    </div>
+    <div className="container2">
       <div className="section-title">More Reasons to Join</div>
       <div className="section">
         <div className="card2">
@@ -89,7 +89,7 @@ function ProjectNetflix() {
           </p>
           <img
             className="smallimg"
-            src="public/images/small1.png"
+            src="/images/small1.png"
             alt="small1"
             height="75px"
             width="75px"
@@ -100,7 +100,7 @@ function ProjectNetflix() {
           <p>Save your favorites easily and always have something to watch.</p>
           <img
             className="smallimg"
-            src="public/images/small2.png"
+            src="/images/small2.png"
             alt="small2"
             height="75px"
             width="75px"
@@ -114,7 +114,7 @@ function ProjectNetflix() {
           </p>
           <img
             className="smallimg"
-            src="public/images/small3.png"
+            src="/images/small3.png"
             alt="small3"
             height="75px"
             width="75px"
@@ -126,7 +126,7 @@ function ProjectNetflix() {
             Send kids on adventures with their favorite characters in a space made
             just for them — free with your membership.
           </p>
-          <img className="smallimg" src="public/images/small4.png" alt="small4" style={{ height: "75px", width: "75px" }} />
+          <img className="smallimg" src="/images/small4.png" alt="small4" style={{ height: "75px", width: "75px" }} />
         </div>
       </div>
       <br />
@@ -139,7 +139,7 @@ function ProjectNetflix() {
             <span className="faq">
               <p>What is Netflix?</p>
               <img
-                src="public/images/plus.png"
+                src="/images/plus.png"
                 alt="plus"
                 height="35px"
                 width="35px"
@@ -150,7 +150,7 @@ function ProjectNetflix() {
             <span className="faq">
               <p>How much does Netflix cost?</p>
               <img
-                src="public/images/plus.png"
+                src="/images/plus.png"
                 alt="plus"
                 height="35px"
                 width="35px"
@@ -161,7 +161,7 @@ function ProjectNetflix() {
             <span className="faq">
               <p>Where can I watch?</p>
               <img
-                src="public/images/plus.png"
+                src="/images/plus.png"
                 alt="plus"
                 height="35px"
                 width="35px"
@@ -172,7 +172,7 @@ function ProjectNetflix() {
             <span className="faq">
               <p>How do I cancel?</p>
               <img
-                src="public/images/plus.png"
+                src="/images/plus.png"
                 alt="plus"
                 height="35px"
                 width="35px"
@@ -183,7 +183,7 @@ function ProjectNetflix() {
             <span className="faq">
               <p>What can I watch on Netflix?</p>
               <img
-                src="public/images/plus.png"
+                src="/images/plus.png"
                 alt="plus"
                 height="35px"
                 width="35px"
@@ -194,7 +194,7 @@ function ProjectNetflix() {
             <span className="faq">
               <p>Is Netflix good for Kids?</p>
               <img
-                src="public/images/plus.png"
+                src="/images/plus.png"
                 alt="plus"
                 height="35px"
                 width="35px"
@@ -203,8 +203,8 @@ function ProjectNetflix() {
           </div>
         </div>
       </div>
-    </div> */}
-    {/* <div className="content2">
+    </div>
+    <div className="content2">
       <p>
         Ready to watch? Enter your email to create or restart your membership.
       </p>
@@ -212,8 +212,8 @@ function ProjectNetflix() {
         <input type="text" placeholder="Email address" />
         <button className="btn">Get Started ;</button>
       </div>
-    </div> */}
-    {/* <footer>
+    </div>
+    <footer>
       <div className="call">
         <u>
           <a href=""> Questions? Contact us.</a>
@@ -259,10 +259,11 @@ function ProjectNetflix() {
         <a href=""></a>
       </div>
       <a href=""></a>
-    </footer> */}
-    {/* <a href="">
+    </footer>
+    <a href="">
       <br />
-    </a> */}
+    </a>
   </>
+  );
 }
 export default ProjectNetflix;
