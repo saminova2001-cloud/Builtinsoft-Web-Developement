@@ -141,7 +141,7 @@ nav button {
 }
 
 .curve-section {
-    margin-top: -25px;
+    margin-top: -15px;
     position: relative;
     height: 80px;
     background: radial-gradient(ellipse at top, #141e47 0%, #000 70%);

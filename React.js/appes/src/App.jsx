@@ -1,8 +1,7 @@
-import './App.css'
-// import Navbar from './components/ProjectJdot';
+import React from 'react';
+// import ProjectJdot from '/projectJdot';
 import './Netflix.css'
-import ProjectNetflix from './ProjectNetflix';
-
+import ProjectNetflix from './projectNetflix';
 function App() {
   return(
     <div>
