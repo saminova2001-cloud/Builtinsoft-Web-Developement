@@ -7,7 +7,7 @@ function App() {
     <div>
       {/* <ProjectJdot/> */}
       {/* <h1>Helloooooooo</h1> */}
-      <ProjectNetflix/>
+      {/* <ProjectNetflix/> */}
     </div>
   );
 }
