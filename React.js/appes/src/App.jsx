@@ -1,14 +1,32 @@
-import React from 'react';
-// import ProjectJdot from '/projectJdot';
-import './Netflix.css'
-import ProjectNetflix from './projectNetflix';
+// import Navbar from './components/Navbar'
+// import Hero from './components/Hero'
+// import Cards from './components/Cards'
+// // import Footer from'./components/Footer'
+// import './App.css'
+
+// function App(){
+//   return(
+//     <div>
+//       <>
+//       <Navbar />
+     
+//       <Hero />
+//       <Cards />
+//       {/* <Footer /> */}
+//        </>
+//     </div>
+//   )
+// }
+// export default App
+
+import FpNav from './components/FpNav';
+import './components/FpNav.css';
+
 function App() {
-  return(
-    <div>
-      {/* <ProjectJdot/> */}
-      {/* <h1>Helloooooooo</h1> */}
-      {/* <ProjectNetflix/> */}
-    </div>
+  return (
+    <>
+      <FpNav />
+    </>
   );
 }
 
