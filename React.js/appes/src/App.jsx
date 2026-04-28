@@ -21,11 +21,14 @@
 
 import FpNav from './components/FpNav';
 import './components/FpNav.css';
+// import FpHero from './components/FpHero';
+// import './components/FpHero.css';
 
 function App() {
   return (
     <>
       <FpNav />
+      {/* <FpHero/> */}
     </>
   );
 }
