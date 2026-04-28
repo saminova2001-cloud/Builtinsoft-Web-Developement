@@ -1,19 +1,20 @@
 .navbar-1{
-    margin-inline: 64px;
+    margin-inline: 55px;
     height: 60px;
     width: auto;
     display: flex;
-    gap: 2px;
+    gap: 7px;
 }
 
 .navbar-1 img{
+    margin-top: 10px;
     height: 28px;
     width: 28px;
 }
 
 .foodpanda img{
-    padding-top: 3px;
-    height: 30px;
-    width: 100px;
+    margin-top: 15px;
+    height: 22px;
+    width: 101px;
     color: aqua;
 }

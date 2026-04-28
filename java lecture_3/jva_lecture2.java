@@ -16,3 +16,20 @@ class Account{
         }
     }
 }
+
+
+
+// exception handling
+public class final2{
+    public static void main(String args[])
+    {  try
+        {
+            system.out.println(1/1);
+        }
+        catch(exception ex)
+        {
+            system.out.println(x:"do not try this");
+        }
+        systemm.out.println(x:"hello world");
+    }
+}  
