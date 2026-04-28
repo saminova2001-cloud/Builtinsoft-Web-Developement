@@ -4,6 +4,9 @@
     width: auto;
     display: flex;
     gap: 7px;
+    margin-bottom: 64px;
+    border-bottom: 2px solid #eeeeee;
+    box-shadow: 20px 20px 50px #eeeeee;
 }
 
 .navbar-1 img{
@@ -13,8 +16,37 @@
 }
 
 .foodpanda img{
-    margin-top: 15px;
+    margin-top: 13px;
     height: 22px;
     width: 101px;
     color: aqua;
+}
+
+.loca p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #52555a;
+    font-weight: 600;
+    padding-left: 290px;
+    padding-top: 2px;
+}
+
+
+
+.right p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #52555a;
+    font-weight: 500;
+    padding-left: 260px;
+    padding-top: 2px;
+}
+
+.lang{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 55px;
+    padding-top: 4px;
+    color: #52555a;
 }
