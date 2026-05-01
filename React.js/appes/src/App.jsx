@@ -73,12 +73,42 @@
 
 
 //             practice 
-import React from 'react'
+import React from "react";
+import User from "./practice";
+function App() {
 
-export default function App() {
+  let userObject={
+    name:"aabbcc",
+    age:"2211",
+    class:"23",
+  }
+
+  let userObject2={
+    name:"bbbbbbb",
+    age:"22222222",
+    class:"class22",
+  }
+
+  let userObject3={
+    name:"ali9",
+    age:"22",
+    class:"class2",
+  }
+
+  let Email = "sami11222@gmail";
+  let name="awwais";
+  let age ="21";
+  let phone ="0320";
   return (
     <div>
-      <practice/>
+      {/* <h2>email: {Email}</h2> */}
+      <h1>react props</h1>
+      <h2></h2>
+      {/* <User Name={name} Age={age} Phone ={phone} email={Email}/> */}
+      <User user={userObject}/>
+      <User user={userObject2}/>
+      <User user={userObject3}/>
     </div>
   )
 }
+export default App;
