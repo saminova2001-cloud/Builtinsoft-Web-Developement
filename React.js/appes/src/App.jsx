@@ -57,16 +57,28 @@
 
 //                  Form
 
-import Form from './components/form';
-import './components/form.css';
+// import Form from './components/form';
+// import './components/form.css';
 
-function App(){
-  return(
-    <>
-    <form/>
+// function App(){
+//   return(
+//     <>
+//     <form/>
 
-    </>
+//     </>
+//   )
+// }
+
+// export default App;
+
+
+//             practice 
+import React from 'react'
+
+export default function App() {
+  return (
+    <div>
+      <practice/>
+    </div>
   )
 }
-
-export default App;
