@@ -73,8 +73,10 @@
 
 
 //             practice 
-import React from "react";
+import React, { useState } from "react";
 import User from "./practice";
+import College from './practice2'
+import School from './practice3';
 function App() {
 
   let userObject={
@@ -95,16 +97,28 @@ function App() {
     class:"class2",
   }
 
+  let collegeNames=['kfuet','swedish','american'];
+
   let Email = "sami11222@gmail";
   let name="awwais";
   let age ="21";
   let phone ="0320";
+  const [Student,setStudent]=useState("brudder")
+  
   return (
     <div>
       {/* <h2>email: {Email}</h2> */}
       <h1>react props</h1>
       <h2></h2>
       {/* <User Name={name} Age={age} Phone ={phone} email={Email}/> */}
+
+      {Student && <School ide={Student}/>}
+      <button onClick={()=> setStudent("schwester")}>update staus of name</button>
+
+      {/* <College names={collegeNames[0]}/>
+      <College names={collegeNames[1]}/>
+      <College names={collegeNames[2]}/> */}
+
       <User user={userObject}/>
       <User user={userObject2}/>
       <User user={userObject3}/>
