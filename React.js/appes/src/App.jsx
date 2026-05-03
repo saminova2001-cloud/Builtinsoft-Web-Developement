@@ -77,7 +77,15 @@ import React, { useState } from "react";
 import User from "./practice";
 import College from './practice2'
 import School from './practice3';
+import Counter from './counter';
+import useToggle from './usetoogle';
+
 function App() {
+  const [value,toggleValue]=useToggle(true);
+  console.log("val---",value);
+  const [count,setCount]=useState(0);
+  const [data,setData]=useState(0);
+  const [display,setDisplay]=useState(true);
 
   let userObject={
     name:"aabbcc",
@@ -104,9 +112,15 @@ function App() {
   let age ="21";
   let phone ="0320";
   const [Student,setStudent]=useState("brudder")
-  
+
   return (
     <div>
+      <button onClick={() => toggleValue()}>Toggle</button>
+      <button onClick={() => setDisplay(false)}>hide</button>
+      <button onClick={() => setDisplay(true)}>show</button>
+      {
+        value ? <h1>custom hookes in react js</h1> : null
+      }
       {/* <h2>email: {Email}</h2> */}
       <h1>react props</h1>
       <h2></h2>
@@ -118,6 +132,14 @@ function App() {
       {/* <College names={collegeNames[0]}/>
       <College names={collegeNames[1]}/>
       <College names={collegeNames[2]}/> */}
+{
+      display?<Counter count={count} data={data} />:null
+}
+      <Counter count={count} data={data} />
+      <button onClick={()=>setCount(count+1)}>Counter</button>
+      <button onClick={()=>setData(data+1)}>Data</button>
+      <button onClick={()=>setDisplay(!display)}>Toggle</button>
+
 
       <User user={userObject}/>
       <User user={userObject2}/>
