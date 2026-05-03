@@ -21,8 +21,8 @@ class Student{
     }
     BSCS(i){}
     BSCS(int i, string s){
-        session = s;
         id  = i;
+        session = s;
     }
     BSCS(string s, int i){
         session = s;
@@ -31,6 +31,6 @@ class Student{
     BSCS(int i, string s)
     {
         id = i;
-        session s;
+        session= s;
     }  
 }
