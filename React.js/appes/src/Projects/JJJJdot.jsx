@@ -1,6 +1,6 @@
 import React from "react";
-import "./Navbar.css";
-function Navbar() {
+import "./JJJJdot.css";
+function JJJJdot() {
     return (
         <div>
             <div class="pre-nav">
@@ -46,4 +46,4 @@ function Navbar() {
     );
 }
 
-export default Navbar; 
+export default JJJJdot; 

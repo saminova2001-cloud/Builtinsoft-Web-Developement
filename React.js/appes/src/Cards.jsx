@@ -1,5 +1,5 @@
 import React from 'react'
-import './Card.css'
+import './Cards.css'
 function Card(props) {
     const {title, imageUrl,category, price}=props.data
 console.log(props, 'here is props')

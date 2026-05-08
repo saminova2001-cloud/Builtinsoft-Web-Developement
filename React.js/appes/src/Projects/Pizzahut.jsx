@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './Pizzahut.css';
 import p1 from '../public/sIpz1.png';
 
 function Navbar(){

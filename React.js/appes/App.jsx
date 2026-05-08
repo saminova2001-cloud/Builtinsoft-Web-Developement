@@ -75,24 +75,23 @@
 
 
 //            Navbar new
-  
-  import {useEffect,UseState} from 'react' 
-  import Navbar from './Navbar'
-  // import Home from './pages/Home'
-  import Footer from './footer'
-  import './Navbar.css'
-  import './App.css'
 
-  function App(){
-    return(
-      <>
-      <Navbar/>
-      <Footer/>
-      </>
-    )
-  }
+import Navbar from './src/Navbar'
+import Footer from './src/footer'
+import './Navbar.css'
+import Home from './src/pages/Home';
 
-  export default App;
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
+    </>
+  )
+}
+
+export default App;
 
 
 //             practice 

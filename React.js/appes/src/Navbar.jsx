@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import NavLogo from '/images/download.jpeg'
+import NavLogo from '/public/images/download.jpeg'
 import { Link, useNavigate } from 'react-router-dom'
 function Navbar(props) {
   const { name, phone } = props
@@ -39,7 +39,7 @@ function Navbar(props) {
 
     <div className='nav-container'>
       <div className='nav-logo'>
-        <img src="/download.jpeg" alt="Logo" width="100%" height="100%" />
+        <img src="/Public/images/download.jpeg" alt="Logo" width="100%" height="100%" />
       </div>
 
       <div className='nav-items'>
