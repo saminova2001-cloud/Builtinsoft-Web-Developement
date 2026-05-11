@@ -1,9 +1,9 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 // create context
 export const MyContext = createContext("")
 
 // Provider
-export default function ContextProvider({ children }){
+export default function MyContextProvider({ children }){
     const[name, setName] = useState("Awais Hameed")
 
     return(

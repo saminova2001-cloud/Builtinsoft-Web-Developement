@@ -80,8 +80,8 @@
   import Navbar from './Navbar'
   // import Home from './pages/Home'
   import Footer from './footer'
-  import './Navbar.css'
-  import './App.css'
+  // import './Navbar.css'
+  // import './App.css'
 
   function App(){
     return(
@@ -170,4 +170,4 @@
 //     </div>
 //   )
 // }
-// export default App;
+export default App;

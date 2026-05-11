@@ -17,7 +17,7 @@ function Navbar(props) {
   },
   {
     label: "Contact",
-    path: "contact-us"
+    path: "/contact-us"
   },
   {
     label: "About",
@@ -45,7 +45,9 @@ function Navbar(props) {
       <div className='nav-items'>
         {navItems.map((item, index) => (
           <>
-            <Link to={item.path}>{item.label}</Link>
+            <Link to={item.path} key={index}>
+            {item.label}
+            </Link>
           </>
         ))}
       </div>
