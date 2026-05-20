@@ -1,36 +1,38 @@
-class Student{
+class Student {
     int id;
-    studyname;
-    class  BSCS{
+    String studyname;
+
+    class BSCS {
         int id;
-        string session;
-        BSCS(){
+        String session;
+
+        BSCS() {
+        }
+
+        BSCS(int i) {
+            id = i;
+        }
+
+        BSCS(String s) {
+            session = s;
+        }
+
+        BSCS(int i, String s) {
+            id = i;
+            session = s;
+        }
+
+        BSCS(String s, int i) {
+            session = s;
+            id = i;
         }
     }
-    BSCS(){}
-    BSCS(int i)
-    {
-        id = u;
+
+    Student() {
     }
-    BSCS(string s)
-    {
-        session = s;
+
+    Student(int id, String studyname) {
+        this.id = id;
+        this.studyname = studyname;
     }
-    BSCS (int i){
-        id = u;
-    }
-    BSCS(i){}
-    BSCS(int i, string s){
-        id  = i;
-        session = s;
-    }
-    BSCS(string s, int i){
-        session = s;
-        id = i;
-    }
-    BSCS(int i, string s)
-    {
-        id = i;
-        session= s;
-    }  
 }
