@@ -1,20 +1,20 @@
 //                 NETFLIX
 
-// import { RiCodeBlock } from "react-icons/ri";
+import { RiCodeBlock } from "react-icons/ri";
 
 
-// import React from 'react';
-// import ProjectNetflix from './ProjectNetflix';
-// import './Netflix.css';
+import React from 'react';
+import ProjectNetflix from './ProjectNetflix';
+import './Netflix.css';
 
-// function App(){
-//   return(
-//       <>
-//       <ProjectNetflix/>
-//        </>
-//   )
-// }
-// export default App
+function App(){
+  return(
+      <>
+      <ProjectNetflix/>
+       </>
+  )
+}
+export default App
 
 
 //                ----------
@@ -76,23 +76,23 @@
 
 //            Navbar new
   
-  import {useEffect,UseState} from 'react' 
-  import Navbar from './Navbar'
-  // import Home from './pages/Home'
-  import Footer from './footer'
-  // import './Navbar.css'
-  // import './App.css'
+  // import {useEffect,UseState} from 'react' 
+  // import Navbar from './Navbar'
+  // // import Home from './pages/Home'
+  // import Footer from './footer'
+  // // import './Navbar.css'
+  // // import './App.css'
 
-  function App(){
-    return(
-      <>
-      <Navbar/>
-      <Footer/>
-      </>
-    )
-  }
+  // function App(){
+  //   return(
+  //     <>
+  //     <Navbar/>
+  //     <Footer/>
+  //     </>
+  //   )
+  // }
 
-  export default App;
+  // export default App;
 
 
 //             practice 

@@ -5,6 +5,7 @@ interface Vehicle {
 interface MobilOil{
     public abstract void EngineOil();
 }
+
 class test{
 
 }
